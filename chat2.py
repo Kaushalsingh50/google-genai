@@ -9,7 +9,7 @@ from google.genai import types
 
 def generate():
     client = genai.Client(
-        api_key=os.environ.get("AIzaSyBCrzYyXY51JPvbVZJGRIE3W9b8IW4th5U"),
+        api_key=os.environ.get("Enter your API key"),
     )
 
     #input for chat
